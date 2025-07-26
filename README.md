@@ -28,7 +28,7 @@ A machine learning project that predicts house prices in Ho Chi Minh City using 
 - Perform EDA (visualizations with `matplotlib` and `seaborn`)
 - Build and evaluate regression models (XGBoost, Ridge, Linear)
 
-### Scrape real estate
+### 📁 Scrape real estate
 - Crawl data from batdongsan.vn, specifically targeting real estate listings in Ho Chi Minh City.
 
 - Step 1: Retrieve all listing URLs from the main page of batdongsan.vn/ho-chi-minh.
@@ -43,7 +43,7 @@ A machine learning project that predicts house prices in Ho Chi Minh City using 
 
 - Step 4: Save the raw data into MongoDB Atlas for further analysis and reuse.
 
-### Clean and preprocess raw text data
+### 🧹 Clean and preprocess raw text data
 - Load raw data from MongoDB Atlas for preprocessing.
 
 - Convert unstructured data into clean, rectangular tabular format suitable for analysis and modeling.
@@ -54,7 +54,7 @@ A machine learning project that predicts house prices in Ho Chi Minh City using 
 
 - Handle missing values, especially in critical fields like number of floor and area.
 
-### Perform EDA
+### 📊 Perform EDA
 - Use histograms and boxplots to visualize data distribution and detect potential outliers in numerical features such as price, area, and number of floors.
 
 - Use bar charts to analyze categorical insights, including:
@@ -66,7 +66,7 @@ A machine learning project that predicts house prices in Ho Chi Minh City using 
   - The most active districts (based on total number of listings)
 
 
-### Build and evaluate regression models
+### ⚙️ Build and evaluate regression models
 - Build machine learning models to estimate house prices based on extracted features:
 
 - Train and compare three different regression algorithms:
