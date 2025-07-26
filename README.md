@@ -98,4 +98,11 @@ A machine learning project that predicts house prices in Ho Chi Minh City using 
 
 - R² Score: 0.53
 
+- Limitation : The R² score (~0.53) suggests that the current features explain only about half of the variance in house prices.
+- Futher Work : Incorporating more detailed features such as exact nearby amenities may help improve model performance.
+
+## 📬 Contact
+Nguyễn Văn Trung Chính – trungchinh19082004@gmail.com
+GitHub: TrungChinh-Byte
+
 
